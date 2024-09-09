@@ -50,6 +50,14 @@ button:hover {
     border-bottom-right-radius: 1rem;
     border-color: #0081a7;
 }
+:placeholder-shown{
+  font-weight: 600;
+}
+input::placeholder {
+  color: #000;
+  opacity: 0.3; 
+}
+
 
 .resume-container {
     background-color: #f1faee;
